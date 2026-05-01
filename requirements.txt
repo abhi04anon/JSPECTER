@@ -1,0 +1,16 @@
+# JSPECTER Requirements
+# Install with: pip install -r requirements.txt
+
+# ─── Core ─────────────────────────────────────────────────────────────────────
+aiohttp>=3.9.0          # Async HTTP client for crawling and endpoint testing
+aiofiles>=23.0.0        # Async file I/O
+
+# ─── Optional ─────────────────────────────────────────────────────────────────
+gitpython>=3.1.0        # Git history scanning (install with: pip install jspecter[git])
+
+# ─── Development ──────────────────────────────────────────────────────────────
+# pytest>=7.0
+# pytest-asyncio>=0.21
+# black>=23.0
+# mypy>=1.0
+# flake8>=6.0
